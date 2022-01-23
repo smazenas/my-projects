@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>project</title>
+  </head>
+  <body>
+    <div id="app">
+      <img :class="gender" v-bind:src="picture"/><!-- v-bind can be replaced with : only -->
+      <h1>name: {{first}} {{last}}</h1>
+      <button v-on:click="getuser()" :class="gender">get random user</button>
+    </div>
+    <!-- built files will be auto injected -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

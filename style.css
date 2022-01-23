@@ -1,0 +1,5 @@
+img{border-radius: 50%;border:5px solid;margin-bottom: 1rem;}
+.male{border-color: steelblue;background-color: steelblue;}
+.female{border-color: pink;background-color: pink;}
+button{cursor: pointer;display: inline-block;color: white;background: #333;font-size: 18px;border: 0;padding: 1rem 1.5rem;}
+div{margin-left: 50%;}
